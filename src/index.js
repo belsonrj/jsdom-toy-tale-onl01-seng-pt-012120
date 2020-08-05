@@ -60,3 +60,5 @@ const showLikes = e => {
     parseInt(e.target.parentElement.children[2].innerText.split(' ')[0]) + 1
   e.target.parentElement.children[2].innerText = `${newNum} Likes`
 }
+
+initialize()
